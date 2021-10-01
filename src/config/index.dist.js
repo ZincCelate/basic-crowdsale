@@ -1,5 +1,5 @@
 const config = {
-  CROWDSALEABI: ['<[
+  CROWDSALEABI: ['[
 	{
 		"constant": true,
 		"inputs": [],
@@ -141,8 +141,8 @@ const config = {
 		"name": "TokenPurchase",
 		"type": "event"
 	}
-]>'],
-  TOKENABI: ['<[
+]'],
+  TOKENABI: ['[
 	{
 		"inputs": [],
 		"payable": false,
@@ -557,8 +557,8 @@ const config = {
 		"stateMutability": "nonpayable",
 		"type": "function"
 	}
-]>'],
-  CROWDSALEADDR: '<0x5963E8EeFFfE95768CDe4F19B9706de2D0E220B5>',
-  TOKENADDR: '<0x47E5d7b0633ebF8a5f7e402631a9ab39C8365b64>'
+]'],
+  CROWDSALEADDR: '0x5963E8EeFFfE95768CDe4F19B9706de2D0E220B5',
+  TOKENADDR: '0x47E5d7b0633ebF8a5f7e402631a9ab39C8365b64'
 };
 export default config;
